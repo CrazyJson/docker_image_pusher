@@ -1,4 +1,4 @@
-openeuler/openeuler:22.03-lts-sp3
+openeuler/python:3.9.9-22.03-lts
 
 
 #支持指定架构
