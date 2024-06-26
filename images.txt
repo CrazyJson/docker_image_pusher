@@ -1,4 +1,4 @@
-openeuler/openeuler:22.03-lts
+openeuler/openeuler:22.03-lts-sp3
 
 
 #支持指定架构
