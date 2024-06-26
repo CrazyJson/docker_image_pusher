@@ -1,3 +1,80 @@
-openeuler/bisheng-jdk:17.0.10-oe2203sp3
+nvidia/cuda:12.4.1-cudnn-devel-ubuntu22.04
+nvidia/cuda:12.4.1-cudnn-devel-ubuntu20.04
+nvidia/cuda:12.4.1-cudnn-runtime-ubuntu20.04
+nvidia/cuda:12.4.1-cudnn-runtime-ubuntu22.04
+
+nvidia/cuda:12.4.0-cudnn-devel-ubuntu22.04
+nvidia/cuda:12.4.0-cudnn-devel-ubuntu20.04
+nvidia/cuda:12.4.0-cudnn-runtime-ubuntu20.04
+nvidia/cuda:12.4.0-cudnn-runtime-ubuntu22.04
+
+nvidia/cuda:12.3.2-cudnn-devel-ubuntu22.04
+nvidia/cuda:12.3.2-cudnn-devel-ubuntu20.04
+nvidia/cuda:12.3.2-cudnn-runtime-ubuntu20.04
+nvidia/cuda:12.3.2-cudnn-runtime-ubuntu22.04
+
+nvidia/cuda:12.3.1-cudnn-devel-ubuntu22.04
+nvidia/cuda:12.3.1-cudnn-devel-ubuntu20.04
+nvidia/cuda:12.3.1-cudnn-runtime-ubuntu20.04
+nvidia/cuda:12.3.1-cudnn-runtime-ubuntu22.04
+
+nvidia/cuda:12.1.0-cudnn-devel-ubuntu22.04
+nvidia/cuda:12.1.0-cudnn-devel-ubuntu20.04
+nvidia/cuda:12.1.0-cudnn-runtime-ubuntu20.04
+nvidia/cuda:12.1.0-cudnn-runtime-ubuntu22.04
+
+nvidia/cuda:11.6.1-cudnn-devel-ubuntu22.04
+nvidia/cuda:11.6.1-cudnn-devel-ubuntu20.04
+nvidia/cuda:11.6.1-cudnn-runtime-ubuntu20.04
+nvidia/cuda:11.6.1-cudnn-runtime-ubuntu22.04
+
+nvidia/cuda:11.5.2-cudnn-devel-ubuntu22.04
+nvidia/cuda:11.5.2-cudnn-devel-ubuntu20.04
+nvidia/cuda:11.5.2-cudnn-runtime-ubuntu20.04
+nvidia/cuda:11.5.2-cudnn-runtime-ubuntu22.04
+
+nvidia/cuda:11.4.3-cudnn-devel-ubuntu22.04
+nvidia/cuda:11.4.3-cudnn-devel-ubuntu20.04
+nvidia/cuda:11.4.3-cudnn-runtime-ubuntu20.04
+nvidia/cuda:11.4.3-cudnn-runtime-ubuntu22.04
+
 #支持指定架构
---platform=linux/arm64 openeuler/bisheng-jdk:17.0.10-oe2203sp3
+--platform=linux/arm64 nvidia/cuda:12.4.1-cudnn-devel-ubuntu22.04
+--platform=linux/arm64 nvidia/cuda:12.4.1-cudnn-devel-ubuntu20.04
+--platform=linux/arm64 nvidia/cuda:12.4.1-cudnn-runtime-ubuntu20.04
+--platform=linux/arm64 nvidia/cuda:12.4.1-cudnn-runtime-ubuntu22.04
+
+--platform=linux/arm64 nvidia/cuda:12.4.0-cudnn-devel-ubuntu22.04
+--platform=linux/arm64 nvidia/cuda:12.4.0-cudnn-devel-ubuntu20.04
+--platform=linux/arm64 nvidia/cuda:12.4.0-cudnn-runtime-ubuntu20.04
+--platform=linux/arm64 nvidia/cuda:12.4.0-cudnn-runtime-ubuntu22.04
+
+--platform=linux/arm64 nvidia/cuda:12.3.2-cudnn-devel-ubuntu22.04
+--platform=linux/arm64 nvidia/cuda:12.3.2-cudnn-devel-ubuntu20.04
+--platform=linux/arm64 nvidia/cuda:12.3.2-cudnn-runtime-ubuntu20.04
+--platform=linux/arm64 nvidia/cuda:12.3.2-cudnn-runtime-ubuntu22.04
+
+--platform=linux/arm64 nvidia/cuda:12.3.1-cudnn-devel-ubuntu22.04
+--platform=linux/arm64 nvidia/cuda:12.3.1-cudnn-devel-ubuntu20.04
+--platform=linux/arm64 nvidia/cuda:12.3.1-cudnn-runtime-ubuntu20.04
+--platform=linux/arm64 nvidia/cuda:12.3.1-cudnn-runtime-ubuntu22.04
+
+--platform=linux/arm64 nvidia/cuda:12.1.0-cudnn-devel-ubuntu22.04
+--platform=linux/arm64 nvidia/cuda:12.1.0-cudnn-devel-ubuntu20.04
+--platform=linux/arm64 nvidia/cuda:12.1.0-cudnn-runtime-ubuntu20.04
+--platform=linux/arm64 nvidia/cuda:12.1.0-cudnn-runtime-ubuntu22.04
+
+--platform=linux/arm64 nvidia/cuda:11.6.1-cudnn-devel-ubuntu22.04
+--platform=linux/arm64 nvidia/cuda:11.6.1-cudnn-devel-ubuntu20.04
+--platform=linux/arm64 nvidia/cuda:11.6.1-cudnn-runtime-ubuntu20.04
+--platform=linux/arm64 nvidia/cuda:11.6.1-cudnn-runtime-ubuntu22.04
+
+--platform=linux/arm64 nvidia/cuda:11.5.2-cudnn-devel-ubuntu22.04
+--platform=linux/arm64 nvidia/cuda:11.5.2-cudnn-devel-ubuntu20.04
+--platform=linux/arm64 nvidia/cuda:11.5.2-cudnn-runtime-ubuntu20.04
+--platform=linux/arm64 nvidia/cuda:11.5.2-cudnn-runtime-ubuntu22.04
+
+--platform=linux/arm64 nvidia/cuda:11.4.3-cudnn-devel-ubuntu22.04
+--platform=linux/arm64 nvidia/cuda:11.4.3-cudnn-devel-ubuntu20.04
+--platform=linux/arm64 nvidia/cuda:11.4.3-cudnn-runtime-ubuntu20.04
+--platform=linux/arm64 nvidia/cuda:11.4.3-cudnn-runtime-ubuntu22.04
