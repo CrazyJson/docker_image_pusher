@@ -78,7 +78,7 @@ jobs:
             echo $download_temp
             mkdir -p $download_temp
 
-            real_filename='${download_temp}/${filename}'
+            real_filename="${download_temp}"/"${filename}"
             echo $real_filename
             curl -L -o "$real_filename" "$line"  
 
