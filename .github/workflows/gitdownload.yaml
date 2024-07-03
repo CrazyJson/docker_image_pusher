@@ -1,0 +1,88 @@
+name: Git Download and Upload Files
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [ main ]
+    paths:  
+      - 'file.txt' 
+
+env:
+  SERVER_URL: "${{ secrets.CITMS_SERVER_URL }}"
+  SERVER_API_KEY: "${{ secrets.CITMS_SERVER_API_KEY }}"
+
+jobs:
+
+  build:
+    name: Pull
+    runs-on: ubuntu-latest
+    steps:
+    - name: Before freeing up disk space
+      run: |
+        echo "Before freeing up disk space"
+        echo "=============================================================================="
+        df -hT
+        echo "=============================================================================="
+
+    # 增加可用磁盘空间
+    - name: Maximize build space
+      uses: easimon/maximize-build-space@master
+      with:
+
+        root-reserve-mb: 2048
+        swap-size-mb: 128
+        remove-dotnet: 'true'
+        remove-haskell: 'true'
+        # 如果空间还是不够用，可以把以下开启，清理出更多空间
+        # remove-android: 'true'
+        # remove-codeql: 'true'
+        build-mount-path: '/var/lib/docker/'
+
+    - name: Restart docker
+      run: sudo service docker restart
+
+    - name: Free up disk space complete
+      run: |
+        echo "Free up disk space complete"
+        echo "=============================================================================="
+        df -hT
+        echo "=============================================================================="
+
+    - name: Checkout Code
+      uses: actions/checkout@v4
+
+    - name: Download File And Upload File to Server  
+      run: |
+        # 数据预处理,判断镜像是否重名
+        declare -A duplicate_images
+        declare -A temp_map
+        while IFS= read -r line; do
+            # 忽略空行与注释
+            [[ -z "$line" ]] && continue
+            if echo "$line" | grep -q '^\s*#'; then
+                continue
+            fi
+            
+            # 从url地址中获取文件名，例如https://github.com/CrazyJson/docker_image_pusher/archive/refs/heads/main.zip  文件名为main.zip 
+            filename=$(basename "$line")
+
+            # 从url地址中获取git用户名 CrazyJson
+            username=$(echo "$url" | awk -F'/' '{print  $4}' )
+
+            # 从url地址中获取仓库地址 docker_image_pusher
+            repname=$(echo "$url" | awk -F'/' '{print  $5}' )
+
+            # 下载文件
+            curl -L -o "$filename" "$line"  
+
+            # 检查文件是否成功下载
+            if [ $? -eq 0 ]; then  
+              # 上传文件
+              curl -X POST -F "file=@$filename" -H "Authorization: Bearer $SERVER_API_KEY" $SERVER_URL/upload?username=$username&repname=$repname  
+              # 清理文件
+              rm "$filename"  
+            else  
+              echo "Failed to download $filename"  
+            fi    
+        done < file.txt
+      
