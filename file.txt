@@ -1,0 +1,1 @@
+https://github.com/CrazyJson/docker_image_pusher/archive/refs/heads/main.zip
