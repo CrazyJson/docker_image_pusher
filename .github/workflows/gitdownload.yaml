@@ -68,13 +68,13 @@ jobs:
             filename=$(basename "$line")
 
             # 从url地址中获取git用户名 CrazyJson
-            username=$(echo "$url" | awk -F'/' '{print  $4}' )
+            username=$(echo "$line" | awk -F'/' '{print  $4}' )
 
             # 从url地址中获取仓库地址 docker_image_pusher
-            repname=$(echo "$url" | awk -F'/' '{print  $5}' )
+            repname=$(echo "$line" | awk -F'/' '{print  $5}' )
 
             # 从url地址中获取本地目录地址 CrazyJson/docker_image_pusher
-            download_temp=$(echo "$url" | awk -F'/' '{print $4"/"$5}')
+            download_temp=$(echo "$line" | awk -F'/' '{print $4"/"$5}')
             echo $download_temp
             mkdir -p $download_temp
 
