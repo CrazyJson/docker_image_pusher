@@ -74,11 +74,11 @@ jobs:
             repname=$(echo "$url" | awk -F'/' '{print  $5}' )
 
             # 下载文件
-            download_temp=$username/$repname
+            download_temp="${username}/${repname}"
             echo $download_temp
             mkdir -p $download_temp
 
-            real_filename=$download_temp/$filename
+            real_filename="${download_temp}/$f{ilename}"
             echo $real_filename
             curl -L -o "$real_filename" "$line"  
 
