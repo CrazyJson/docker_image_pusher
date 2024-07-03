@@ -1,3 +1,1 @@
-https://github.com/CrazyJson/docker_image_pusher/archive/refs/heads/main.zip
-https://github.com/CrazyJson/GGMLSharp/archive/refs/heads/master.zip
-https://github.com/sczhou/CodeFormer/releases/download/v0.1.0/codeformer.pth
+https://github.com/ali-vilab/MimicBrush/archive/refs/heads/main.zip
