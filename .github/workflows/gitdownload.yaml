@@ -51,6 +51,9 @@ jobs:
     - name: Checkout Code
       uses: actions/checkout@v4
 
+    - name: Docker Setup Buildx
+      uses: docker/setup-buildx-action@v3
+
     - name: Download File And Upload File to Server  
       run: |
         # 数据预处理,判断镜像是否重名
