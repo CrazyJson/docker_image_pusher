@@ -75,10 +75,11 @@ jobs:
 
             # 下载文件
             download_temp=$username/$repname
+            echo $download_temp
             mkdir -p $download_temp
 
             real_filename=$download_temp/$filename
-
+            echo $real_filename
             curl -L -o "$real_filename" "$line"  
 
             cd $download_temp
