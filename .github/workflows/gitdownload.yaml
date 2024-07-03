@@ -75,7 +75,6 @@ jobs:
 
             # 从url地址中获取本地目录地址 CrazyJson/docker_image_pusher
             download_temp=$(echo "$line" | awk -F'/' '{print $4"/"$5}')
-            echo $download_temp
             mkdir -p $download_temp
 
             real_filename="${download_temp}"/"${filename}"
@@ -91,7 +90,7 @@ jobs:
               echo "开始上传文件$filename"
               curl -X POST -F "file=@$real_filename" -H "Authorization: Bearer $SERVER_API_KEY" $SERVER_URL/upload?username=$username&repname=$repname  
               # 清理文件
-              rm "$real_filename"  
+              rm -f "$real_filename"  
             else  
               echo "Failed to download $filename"  
             fi    
