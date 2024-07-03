@@ -57,8 +57,6 @@ jobs:
     - name: Download File And Upload File to Server  
       run: |
         # 数据预处理
-        download_temp="download_temp"
-        mkdir -p $download_temp
         while IFS= read -r line; do
             # 忽略空行与注释
             [[ -z "$line" ]] && continue
@@ -76,8 +74,13 @@ jobs:
             repname=$(echo "$url" | awk -F'/' '{print  $5}' )
 
             # 下载文件
-            curl -L -o "$download_temp/$filename" "$line"  
-            ls
+            download_temp="$username/$repname"
+            mkdir -p $download_temp
+
+            real_filename="$download_temp/$filename"
+
+            curl -L -o "$real_filename" "$line"  
+
             cd $download_temp
             ls
 
@@ -85,9 +88,9 @@ jobs:
             if [ $? -eq 0 ]; then  
               # 上传文件
               echo "开始上传文件$filename"
-              curl -X POST -F "file=@$download_temp/$filename" -H "Authorization: Bearer $SERVER_API_KEY" $SERVER_URL/upload?username=$username&repname=$repname  
+              curl -X POST -F "file=@$real_filename" -H "Authorization: Bearer $SERVER_API_KEY" $SERVER_URL/upload?username=$username&repname=$repname  
               # 清理文件
-              rm "$filename"  
+              rm "$real_filename"  
             else  
               echo "Failed to download $filename"  
             fi    
