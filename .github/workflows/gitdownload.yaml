@@ -75,10 +75,12 @@ jobs:
 
             # 下载文件
             curl -L -o "$filename" "$line"  
+            ll
 
             # 检查文件是否成功下载
             if [ $? -eq 0 ]; then  
               # 上传文件
+              echo "开始上传文件$filename"
               curl -X POST -F "file=@$filename" -H "Authorization: Bearer $SERVER_API_KEY" $SERVER_URL/upload?username=$username&repname=$repname  
               # 清理文件
               rm "$filename"  
