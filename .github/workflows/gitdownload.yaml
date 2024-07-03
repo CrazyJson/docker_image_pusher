@@ -78,11 +78,7 @@ jobs:
             mkdir -p $download_temp
 
             real_filename="${download_temp}"/"${filename}"
-            echo $real_filename
             curl -L -o "$real_filename" "$line"  
-
-            cd $download_temp
-            ls
 
             # 检查文件是否成功下载
             if [ $? -eq 0 ]; then  
