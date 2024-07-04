@@ -73,8 +73,15 @@ jobs:
             # 从url地址中获取仓库地址 docker_image_pusher
             repname=$(echo "$line" | awk -F'/' '{print  $5}' )
 
-            # 从url地址中获取本地目录地址 CrazyJson/docker_image_pusher
-            download_temp=$(echo "$line" | awk -F'/' '{print $4"/"$5}')
+            if [ "$username" = "$filename" ]; then  
+                username="default"  
+            fi
+            
+            if [ "$repname" = "$filename" ]; then  
+                repname="default"  
+            fi
+            
+            download_temp="${username}"/"${repname}"
             mkdir -p $download_temp
 
             real_filename="${download_temp}"/"${filename}"
