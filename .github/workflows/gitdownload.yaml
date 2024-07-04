@@ -84,7 +84,7 @@ jobs:
             if [ $? -eq 0 ]; then  
               # 上传文件
               echo "开始上传文件$filename"
-              curl -X POST -F "file=@$real_filename" -H "Authorization: Bearer $SERVER_API_KEY" "$SERVER_URL/upload?username=$username&repname=$repname"  
+              curl --max-time 3600 -X POST -F "file=@$real_filename" -H "Authorization: Bearer $SERVER_API_KEY" "$SERVER_URL/upload?username=$username&repname=$repname"  
               # 清理文件
               rm -f "$real_filename"  
             else  
