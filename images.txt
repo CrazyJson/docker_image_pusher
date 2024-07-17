@@ -1,4 +1,4 @@
-openeuler/python:3.9.9-22.03-lts
+lucferreira/cosyvoice:v1.0
 
 
 #支持指定架构
