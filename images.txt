@@ -1,4 +1,4 @@
-lucferreira/cosyvoice:v1.0
+cosyvoice:v1.0
 
 
 #支持指定架构
