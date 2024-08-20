@@ -1,6 +1,4 @@
-node:16.20.2
-nginx:1.25.2-alpine
-
+eclipse-temurin:8u392-b08-jre-centos7
 
 #支持指定架构
 #--platform=linux/arm64 nvidia/cuda:12.4.1-cudnn-devel-ubuntu22.04
