@@ -1,4 +1,7 @@
-eclipse-temurin:8u392-b08-jre-centos7
+jitsi/prosody:stable-9646
+jitsi/web:stable-9646
+jitsi/jicofo:stable-9646
+jitsi/jvb:stable-9646
 
 #支持指定架构
 #--platform=linux/arm64 nvidia/cuda:12.4.1-cudnn-devel-ubuntu22.04
