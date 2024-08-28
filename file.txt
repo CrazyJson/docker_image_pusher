@@ -1,3 +1,3 @@
-https://github.com/FubarDevelopment/FtpServer/archive/refs/heads/master.zip
+https://github.com/caorushizi/mediago/releases/download/v2.2.3/mediago-setup-x64-2.2.3.exe
 
 
