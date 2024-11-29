@@ -1,14 +1,4 @@
-ollama/ollama:0.2.1
---platform=linux/arm64 ollama/ollama:0.2.1
-ollama/ollama:0.2.8
---platform=linux/arm64 ollama/ollama:0.2.8
-ollama/ollama:0.3.0
---platform=linux/arm64 ollama/ollama:0.3.0
-ollama/ollama:0.3.7
---platform=linux/arm64 ollama/ollama:0.3.7
-ollama/ollama:0.3.12
---platform=linux/arm64 ollama/ollama:0.3.12
-ollama/ollama:0.4.0
---platform=linux/arm64 ollama/ollama:0.4.0
-#支持指定架构
-#--platform=linux/arm64 nvidia/cuda:12.4.1-cudnn-devel-ubuntu22.04
+nvidia/cuda:12.0.1-cudnn8-runtime-ubuntu20.04
+nvidia/cuda:12.1.1-cudnn8-runtime-ubuntu20.04
+nvidia/cuda:12.2.2-cudnn8-runtime-ubuntu20.04
+#--platform=linux/arm64 ollama/ollama:0.2.1
