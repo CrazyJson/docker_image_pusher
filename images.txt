@@ -1,43 +1,4 @@
-pytorch/pytorch:2.5.1-cuda12.4-cudnn9-runtime
-pytorch/pytorch:2.5.1-cuda11.8-cudnn9-runtime
-pytorch/pytorch:2.5.1-cuda12.1-cudnn9-runtime
-pytorch/pytorch:2.3.1-cuda11.8-cudnn8-runtime
-pytorch/pytorch:2.3.1-cuda12.1-cudnn8-runtime
-pytorch/pytorch:2.3.0-cuda12.1-cudnn8-runtime
-pytorch/pytorch:2.3.0-cuda11.8-cudnn8-runtime
-pytorch/pytorch:2.2.2-cuda12.1-cudnn8-runtime
-pytorch/pytorch:2.2.2-cuda11.8-cudnn8-runtime
-pytorch/pytorch:2.2.1-cuda12.1-cudnn8-runtime
-pytorch/pytorch:2.2.1-cuda11.8-cudnn8-runtime
-pytorch/pytorch:2.2.0-cuda12.1-cudnn8-runtime
-pytorch/pytorch:2.2.0-cuda11.8-cudnn8-runtime
-pytorch/pytorch:2.1.2-cuda11.8-cudnn8-runtime
-pytorch/pytorch:2.1.2-cuda12.1-cudnn8-runtime
-pytorch/pytorch:2.1.1-cuda12.1-cudnn8-runtime
-pytorch/pytorch:2.1.0-cuda12.1-cudnn8-runtime
-pytorch/pytorch:2.1.0-cuda11.8-cudnn8-runtime
-pytorch/pytorch:2.0.1-cuda11.7-cudnn8-runtime
-pytorch/pytorch:2.0.0-cuda11.7-cudnn8-runtime
-pytorch/pytorch:1.9.1-cuda11.1-cudnn8-runtime
+pig4cloud/markitdown
 
---platform=linux/arm64 pytorch/pytorch:2.5.1-cuda12.4-cudnn9-runtime
---platform=linux/arm64 pytorch/pytorch:2.5.1-cuda11.8-cudnn9-runtime
---platform=linux/arm64 pytorch/pytorch:2.5.1-cuda12.1-cudnn9-runtime
---platform=linux/arm64 pytorch/pytorch:2.3.1-cuda11.8-cudnn8-runtime
---platform=linux/arm64 pytorch/pytorch:2.3.1-cuda12.1-cudnn8-runtime
---platform=linux/arm64 pytorch/pytorch:2.3.0-cuda12.1-cudnn8-runtime
---platform=linux/arm64 pytorch/pytorch:2.3.0-cuda11.8-cudnn8-runtime
---platform=linux/arm64 pytorch/pytorch:2.2.2-cuda12.1-cudnn8-runtime
---platform=linux/arm64 pytorch/pytorch:2.2.2-cuda11.8-cudnn8-runtime
---platform=linux/arm64 pytorch/pytorch:2.2.1-cuda12.1-cudnn8-runtime
---platform=linux/arm64 pytorch/pytorch:2.2.1-cuda11.8-cudnn8-runtime
---platform=linux/arm64 pytorch/pytorch:2.2.0-cuda12.1-cudnn8-runtime
---platform=linux/arm64 pytorch/pytorch:2.2.0-cuda11.8-cudnn8-runtime
---platform=linux/arm64 pytorch/pytorch:2.1.2-cuda11.8-cudnn8-runtime
---platform=linux/arm64 pytorch/pytorch:2.1.2-cuda12.1-cudnn8-runtime
---platform=linux/arm64 pytorch/pytorch:2.1.1-cuda12.1-cudnn8-runtime
---platform=linux/arm64 pytorch/pytorch:2.1.0-cuda12.1-cudnn8-runtime
---platform=linux/arm64 pytorch/pytorch:2.1.0-cuda11.8-cudnn8-runtime
---platform=linux/arm64 pytorch/pytorch:2.0.1-cuda11.7-cudnn8-runtime
---platform=linux/arm64 pytorch/pytorch:2.0.0-cuda11.7-cudnn8-runtime
---platform=linux/arm64 pytorch/pytorch:1.9.1-cuda11.1-cudnn8-runtime
+--platform=linux/arm64 pig4cloud/markitdown
+
