@@ -1,5 +1,4 @@
 ghcr.io/remsky/kokoro-fastapi-gpu:v0.1.0
 ghcr.io/remsky/kokoro-fastapi-ui:v0.1.0
 
---platform=linux/arm64 ghcr.io/remsky/kokoro-fastapi-gpu:v0.1.0
 --platform=linux/arm64 ghcr.io/remsky/kokoro-fastapi-ui:v0.1.0
