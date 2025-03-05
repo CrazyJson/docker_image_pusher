@@ -1,4 +1,4 @@
-vllm/vllm-openai:v0.7.3
+# vllm/vllm-openai:v0.7.3
 
 
---platform=linux/arm64 ghcr.io/remsky/kokoro-fastapi-ui:v0.1.0
+--platform=linux/arm64 nvcr.io/nvidia/pytorch:23.10-py3
