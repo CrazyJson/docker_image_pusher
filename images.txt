@@ -1,4 +1,4 @@
 # vllm/vllm-openai:v0.7.3
 
 
---platform=linux/arm64 nvidia/cuda:12.4.1-runtime-ubuntu20.04
+--platform=linux/arm64 nvidia/cuda:12.4.1-devel-ubuntu20.04
