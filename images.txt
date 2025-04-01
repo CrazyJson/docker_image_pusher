@@ -1,4 +1,4 @@
-pytorch/pytorch:2.6.0-cuda12.6-cudnn9-runtime
+emqx:5.8.6
 
-#--platform=linux/arm64 doccano/doccano:1.8
+--platform=linux/arm64 emqx:5.8.6
 
