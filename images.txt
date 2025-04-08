@@ -1,4 +1,4 @@
-emqx:5.8.6
+qwenllm/qwenvl:2.5-cu121
 
---platform=linux/arm64 emqx:5.8.6
+#--platform=linux/arm64 emqx:5.8.6
 
