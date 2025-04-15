@@ -1,4 +1,4 @@
-quay.io/ascend/vllm-ascend:v0.7.3rc2
+openeuler/openeuler:24.03-lts
 
---platform=linux/arm64 quay.io/ascend/vllm-ascend:v0.7.3rc2
+--platform=linux/arm64 openeuler/openeuler:24.03-lts
 
