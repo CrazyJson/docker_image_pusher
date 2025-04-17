@@ -1,4 +1,4 @@
-openeuler/openeuler:24.03-lts
+opengauss/opengauss-server:7.0.0-RC1
 
---platform=linux/arm64 openeuler/openeuler:24.03-lts
+--platform=linux/arm64 opengauss/opengauss-server:7.0.0-RC1
 
