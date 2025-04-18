@@ -1,4 +1,6 @@
-opengauss/opengauss-server:7.0.0-RC1
+langgenius/dify-api:1.2.0
+langgenius/dify-web:1.2.0
 
---platform=linux/arm64 opengauss/opengauss-server:7.0.0-RC1
+--platform=linux/arm64 langgenius/dify-api:1.2.0
+--platform=linux/arm64 langgenius/dify-web:1.2.0
 
