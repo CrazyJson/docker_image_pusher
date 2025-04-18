@@ -1,4 +1,5 @@
-langgenius/dify-plugin-daemon:0.0.7-local
+langgenius/dify-sandbox:0.2.11
 
---platform=linux/arm64 langgenius/dify-plugin-daemon:0.0.7-local
+--platform=linux/arm64 langgenius/dify-sandbox:0.2.11
+
 
