@@ -1,4 +1,4 @@
-ollama/ollama:0.6.8
+vllm/vllm-openai:v0.8.5
 
 #--platform=linux/arm64 langgenius/dify-sandbox:0.2.11
 
