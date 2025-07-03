@@ -1,6 +1,4 @@
-guiji2025/fish-speech-ziming
-guiji2025/fun-asr
-guiji2025/heygem.ai
+linshen/prompt-optimizer
 #--platform=linux/arm64 langgenius/dify-sandbox:0.2.11
 
 
