@@ -1,4 +1,4 @@
-linshen/prompt-optimizer
-#--platform=linux/arm64 langgenius/dify-sandbox:0.2.11
+python:3.11-slim
+--platform=linux/arm64 python:3.11-slim
 
 
