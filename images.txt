@@ -1,4 +1,4 @@
-vinlic/qwen-free-api:latest
+ollama/ollama:0.12.0
 #--platform=linux/arm64 docker.io/searxng/searxng:latest
 
 
