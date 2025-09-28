@@ -1,4 +1,4 @@
-jianjungki/mineru
+quincyqiang/mineru:0.3-models
 #--platform=linux/arm64 docker.io/searxng/searxng:latest
 
 
