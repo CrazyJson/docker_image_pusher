@@ -1,4 +1,4 @@
-vllm/vllm-openai:v0.10.2
+jianjungki/mineru
 #--platform=linux/arm64 docker.io/searxng/searxng:latest
 
 
