@@ -1,12 +1,15 @@
---platform=linux/arm64 cozedev/coze-studio-web:0.5.0.beta
---platform=linux/arm64 cozedev/coze-studio-server:0.5.0.beta.1
---platform=linux/arm64 nsqio/nsq:v1.2.1
---platform=linux/arm64 milvusdb/milvus:v2.5.10
---platform=linux/arm64 bitnamilegacy/etcd:3.5
---platform=linux/arm64 minio/minio:RELEASE.2025-06-13T11-33-47Z-cpuv1
---platform=linux/arm64 bitnamilegacy/elasticsearch:8.18.0
---platform=linux/arm64 bitnamilegacy/redis:8.0
---platform=linux/arm64 mysql:8.4.5
+cozedev/coze-studio-web:0.5.0.beta
+cozedev/coze-studio-server:0.5.0.beta.1
+nsqio/nsq:v1.2.1
+milvusdb/milvus:v2.5.10
+bitnamilegacy/etcd:3.5
+minio/minio:RELEASE.2025-06-13T11-33-47Z-cpuv1
+bitnamilegacy/elasticsearch:8.18.0
+bitnamilegacy/redis:8.0
+mysql:8.4.5
+
+--platform=linux/arm64 cozedev/coze-loop:1.4.1
+cozedev/coze-loop:1.4.1
 
 #--platform=linux/arm64 docker.io/searxng/searxng:latest
 
