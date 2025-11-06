@@ -2,7 +2,7 @@
 #cozedev/coze-studio-server:0.5.0
 --platform=linux/arm64 dongyt/paddlespeech_tts:1.0
 
---platform=linux/arm64 ujushan/paddlespeech:develop
+#--platform=linux/arm64 ujushan/paddlespeech:develop
 
 
 #--platform=linux/arm64 cozedev/coze-loop:1.4.1
