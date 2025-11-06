@@ -1,6 +1,6 @@
 #cozedev/coze-studio-web:0.5.0
-#cozedev/coze-studio-server:0.5.0
---platform=linux/arm64 dongyt/paddlespeech_tts:1.0
+qq1aq/kokoro-fastapi-cpu:v0.4.8
+--platform=linux/arm64 qq1aq/kokoro-fastapi-cpu:v0.4.8
 
 #--platform=linux/arm64 ujushan/paddlespeech:develop
 
