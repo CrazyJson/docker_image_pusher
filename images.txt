@@ -1,6 +1,6 @@
 #cozedev/coze-studio-web:0.5.0
-qq1aq/kokoro-fastapi-cpu:v0.4.8
---platform=linux/arm64 qq1aq/kokoro-fastapi-cpu:v0.4.8
+ghcr.io/remsky/kokoro-fastapi-cpu:v0.2.4
+--platform=linux/arm64 ghcr.io/remsky/kokoro-fastapi-cpu:v0.2.4
 
 #--platform=linux/arm64 ujushan/paddlespeech:develop
 
