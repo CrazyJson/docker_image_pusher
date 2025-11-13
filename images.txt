@@ -1,6 +1,6 @@
 #cozedev/coze-studio-web:0.5.0
-node:22-alpine
---platform=linux/arm64 node:22-alpine
+nginx:1.25-alpine
+--platform=linux/arm64 nginx:1.25-alpine
 
 #--platform=linux/arm64 ujushan/paddlespeech:develop
 
