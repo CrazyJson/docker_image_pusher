@@ -1,6 +1,6 @@
 #cozedev/coze-studio-web:0.5.0
-ghcr.io/remsky/kokoro-fastapi-cpu:v0.2.4
---platform=linux/arm64 ghcr.io/remsky/kokoro-fastapi-cpu:v0.2.4
+node:22-alpine
+--platform=linux/arm64 node:22-alpine
 
 #--platform=linux/arm64 ujushan/paddlespeech:develop
 
