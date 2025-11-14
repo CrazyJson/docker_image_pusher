@@ -1,6 +1,6 @@
-casbin/casdoor:v2.67.0
+infiniflow/ragflow:v0.20.5-slim
 
---platform=linux/arm64 casbin/casdoor:v2.67.0
+--platform=linux/arm64 infiniflow/ragflow:v0.20.5-slim
 
 #--platform=linux/arm64 ujushan/paddlespeech:develop
 
