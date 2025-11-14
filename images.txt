@@ -1,7 +1,17 @@
-infiniflow/ragflow:v0.20.5-slim
-
---platform=linux/arm64 infiniflow/ragflow:v0.20.5-slim
-
+hub.icert.top/opensearchproject/opensearch:2.19.1
+infiniflow/infinity:v0.6.0-dev5
+mysql:8.0.39
+valkey/valkey:8
+elasticsearch:8.11.3
+infiniflow/sandbox-executor-manager:latest
+quay.io/minio/minio:RELEASE.2025-06-13T11-33-47Z
+--platform=linux/arm64 hub.icert.top/opensearchproject/opensearch:2.19.1
+--platform=linux/arm64 infiniflow/infinity:v0.6.0-dev5
+--platform=linux/arm64 mysql:8.0.39
+--platform=linux/arm64 quay.io/minio/minio:RELEASE.2025-06-13T11-33-47Z
+--platform=linux/arm64 valkey/valkey:8
+--platform=linux/arm64 infiniflow/sandbox-executor-manager:latest
+--platform=linux/arm64 elasticsearch:8.11.3
 #--platform=linux/arm64 ujushan/paddlespeech:develop
 
 
