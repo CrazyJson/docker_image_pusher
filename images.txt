@@ -1,13 +1,5 @@
-openresty/openresty:1.27.1.1-alpine
-ghcr.io/iflytek/astron-rpa/ai-service:latest
-ghcr.io/iflytek/astron-rpa/openapi-service:latest
-ghcr.io/iflytek/astron-rpa/resource-service:latest
-ghcr.io/iflytek/astron-rpa/robot-service:latest
---platform=linux/arm64 openresty/openresty:1.27.1.1-alpine
---platform=linux/arm64 ghcr.io/iflytek/astron-rpa/robot-service:latest
---platform=linux/arm64 ghcr.io/iflytek/astron-rpa/resource-service:latest
---platform=linux/arm64 ghcr.io/iflytek/astron-rpa/openapi-service:latest
---platform=linux/arm64 ghcr.io/iflytek/astron-rpa/ai-service:latest
+bitnami/redis:latest
+--platform=linux/arm64 bitnami/redis:latest
 
 
 #--platform=linux/arm64 cozedev/coze-loop:1.4.1
