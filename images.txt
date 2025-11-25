@@ -1,24 +1,14 @@
-ghcr.io/iflytek/astron-agent/core-database:v1.0.0-rc.6
-ghcr.io/iflytek/astron-agent/core-tenant:v1.0.0-rc.6
-ghcr.io/iflytek/astron-agent/core-rpa:v1.0.0-rc.6
-ghcr.io/iflytek/astron-agent/core-link:v1.0.0-rc.6
-ghcr.io/iflytek/astron-agent/core-aitools:v1.0.0-rc.6
-ghcr.io/iflytek/astron-agent/core-agent:v1.0.0-rc.6
-ghcr.io/iflytek/astron-agent/core-knowledge:v1.0.0-rc.6
-ghcr.io/iflytek/astron-agent/core-workflow:v1.0.0-rc.6
-ghcr.io/iflytek/astron-agent/console-frontend:v1.0.0-rc.6
-ghcr.io/iflytek/astron-agent/console-hub:v1.0.0-rc.6
+langgenius/dify-api:1.10.0
+langgenius/dify-web:1.10.0
+langgenius/dify-plugin-daemon:0.4.1-local
+semitechnologies/weaviate:1.27.0
+milvusdb/milvus:v2.5.15
 
---platform=linux/arm64 ghcr.io/iflytek/astron-agent/core-database:v1.0.0-rc.6
---platform=linux/arm64 ghcr.io/iflytek/astron-agent/core-tenant:v1.0.0-rc.6
---platform=linux/arm64 ghcr.io/iflytek/astron-agent/core-rpa:v1.0.0-rc.6
---platform=linux/arm64 ghcr.io/iflytek/astron-agent/core-link:v1.0.0-rc.6
---platform=linux/arm64 ghcr.io/iflytek/astron-agent/core-aitools:v1.0.0-rc.6
---platform=linux/arm64 ghcr.io/iflytek/astron-agent/core-agent:v1.0.0-rc.6
---platform=linux/arm64 ghcr.io/iflytek/astron-agent/core-knowledge:v1.0.0-rc.6
---platform=linux/arm64 ghcr.io/iflytek/astron-agent/core-workflow:v1.0.0-rc.6
---platform=linux/arm64 ghcr.io/iflytek/astron-agent/console-frontend:v1.0.0-rc.6
---platform=linux/arm64 ghcr.io/iflytek/astron-agent/console-hub:v1.0.0-rc.6
+--platform=linux/arm64 langgenius/dify-api:1.10.0
+--platform=linux/arm64 langgenius/dify-web:1.10.0
+--platform=linux/arm64 langgenius/dify-plugin-daemon:0.4.1-local
+--platform=linux/arm64 semitechnologies/weaviate:1.27.0
+--platform=linux/arm64 milvusdb/milvus:v2.5.15
 
 
 #--platform=linux/arm64 cozedev/coze-loop:1.4.1
