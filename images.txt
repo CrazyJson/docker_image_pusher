@@ -1,5 +1,24 @@
-bitnami/redis:latest
---platform=linux/arm64 bitnami/redis:latest
+ghcr.io/iflytek/astron-agent/core-database:v1.0.0-rc.6
+ghcr.io/iflytek/astron-agent/core-tenant:v1.0.0-rc.6
+ghcr.io/iflytek/astron-agent/core-rpa:v1.0.0-rc.6
+ghcr.io/iflytek/astron-agent/core-link:v1.0.0-rc.6
+ghcr.io/iflytek/astron-agent/core-aitools:v1.0.0-rc.6
+ghcr.io/iflytek/astron-agent/core-agent:v1.0.0-rc.6
+ghcr.io/iflytek/astron-agent/core-knowledge:v1.0.0-rc.6
+ghcr.io/iflytek/astron-agent/core-workflow:v1.0.0-rc.6
+ghcr.io/iflytek/astron-agent/console-frontend:v1.0.0-rc.6
+ghcr.io/iflytek/astron-agent/console-hub:v1.0.0-rc.6
+
+--platform=linux/arm64 ghcr.io/iflytek/astron-agent/core-database:v1.0.0-rc.6
+--platform=linux/arm64 ghcr.io/iflytek/astron-agent/core-tenant:v1.0.0-rc.6
+--platform=linux/arm64 ghcr.io/iflytek/astron-agent/core-rpa:v1.0.0-rc.6
+--platform=linux/arm64 ghcr.io/iflytek/astron-agent/core-link:v1.0.0-rc.6
+--platform=linux/arm64 ghcr.io/iflytek/astron-agent/core-aitools:v1.0.0-rc.6
+--platform=linux/arm64 ghcr.io/iflytek/astron-agent/core-agent:v1.0.0-rc.6
+--platform=linux/arm64 ghcr.io/iflytek/astron-agent/core-knowledge:v1.0.0-rc.6
+--platform=linux/arm64 ghcr.io/iflytek/astron-agent/core-workflow:v1.0.0-rc.6
+--platform=linux/arm64 ghcr.io/iflytek/astron-agent/console-frontend:v1.0.0-rc.6
+--platform=linux/arm64 ghcr.io/iflytek/astron-agent/console-hub:v1.0.0-rc.6
 
 
 #--platform=linux/arm64 cozedev/coze-loop:1.4.1
