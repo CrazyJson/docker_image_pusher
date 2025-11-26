@@ -1,19 +1,9 @@
-langgenius/dify-api:1.10.0
-langgenius/dify-web:1.10.0
-langgenius/dify-plugin-daemon:0.4.1-local
-semitechnologies/weaviate:1.27.0
-milvusdb/milvus:v2.5.15
+ghcr.io/iflytek/astron-rpa/ai-service:latest
+ghcr.io/iflytek/astron-rpa/openapi-service:latest
+ghcr.io/iflytek/astron-rpa/resource-service:latest
+ghcr.io/iflytek/astron-rpa/robot-service:latest
 
---platform=linux/arm64 langgenius/dify-api:1.10.0
---platform=linux/arm64 langgenius/dify-web:1.10.0
---platform=linux/arm64 langgenius/dify-plugin-daemon:0.4.1-local
---platform=linux/arm64 semitechnologies/weaviate:1.27.0
---platform=linux/arm64 milvusdb/milvus:v2.5.15
-
-
-#--platform=linux/arm64 cozedev/coze-loop:1.4.1
-#cozedev/coze-loop:1.4.1
-
-#--platform=linux/arm64 docker.io/searxng/searxng:latest
-
-
+--platform=linux/arm64 ghcr.io/iflytek/astron-rpa/ai-service:latest
+--platform=linux/arm64 ghcr.io/iflytek/astron-rpa/openapi-service:latest
+--platform=linux/arm64 ghcr.io/iflytek/astron-rpa/resource-service:latest
+--platform=linux/arm64 ghcr.io/iflytek/astron-rpa/robot-service:latest
