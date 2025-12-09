@@ -30,3 +30,5 @@
 # --platform=linux/arm64 ghcr.io/iflytek/astron-agent/console-hub:latest
 
 --platform=linux/arm64 quay.m.daocloud.io/ascend/vllm-ascend:v0.11.0rc2
+--platform=linux/arm64 quay.m.daocloud.io/ascend/vllm-ascend:v0.10.0rc1-310p
+
