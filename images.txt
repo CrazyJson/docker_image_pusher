@@ -1,4 +1,4 @@
-docker.io/nvidia/cuda:12.6.0-cudnn-runtime-ubuntu24.04
+fishaudio/fish-speech:server-cuda
 #ghcr.io/iflytek/astron-rpa/ai-service:latest
 #ghcr.io/iflytek/astron-rpa/openapi-service:latest
 #ghcr.io/iflytek/astron-rpa/resource-service:latest
