@@ -1,4 +1,4 @@
-fishaudio/fish-speech:server-cuda
+nvidia/cuda:12.4.1-cudnn-devel-ubuntu22.04
 #ghcr.io/iflytek/astron-rpa/ai-service:latest
 #ghcr.io/iflytek/astron-rpa/openapi-service:latest
 #ghcr.io/iflytek/astron-rpa/resource-service:latest
