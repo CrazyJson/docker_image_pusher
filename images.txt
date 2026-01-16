@@ -1,4 +1,4 @@
-xprobe/xinference:v1.15.0-cu128
+neosun/cosyvoice:v3.4.0
 #ghcr.io/iflytek/astron-rpa/ai-service:latest
 #ghcr.io/iflytek/astron-rpa/openapi-service:latest
 #ghcr.io/iflytek/astron-rpa/resource-service:latest
