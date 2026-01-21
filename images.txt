@@ -1,4 +1,5 @@
-fabridamicelli/torchserve:0.12.0-gpu-python3.10
+lengyue233/fish-speech:v1.5.1
+lengyue233/fish-speech:v1.5.0
 #ghcr.io/iflytek/astron-rpa/ai-service:latest
 #ghcr.io/iflytek/astron-rpa/openapi-service:latest
 #ghcr.io/iflytek/astron-rpa/resource-service:latest
