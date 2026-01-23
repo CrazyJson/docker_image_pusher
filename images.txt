@@ -1,5 +1,5 @@
-lengyue233/fish-speech:v1.5.1
-lengyue233/fish-speech:v1.5.0
+travisvn/openai-edge-tts:canary
+travisvn/openai-edge-tts:latest
 #ghcr.io/iflytek/astron-rpa/ai-service:latest
 #ghcr.io/iflytek/astron-rpa/openapi-service:latest
 #ghcr.io/iflytek/astron-rpa/resource-service:latest
