@@ -1,9 +1,12 @@
-travisvn/openai-edge-tts:canary
-travisvn/openai-edge-tts:latest
-#ghcr.io/iflytek/astron-rpa/ai-service:latest
-#ghcr.io/iflytek/astron-rpa/openapi-service:latest
-#ghcr.io/iflytek/astron-rpa/resource-service:latest
-#ghcr.io/iflytek/astron-rpa/robot-service:latest
+#RPA Service Group
+ghcr.io/iflytek/astron-rpa/ai-service:latest
+ghcr.io/iflytek/astron-rpa/openapi-service:latest
+ghcr.io/iflytek/astron-rpa/resource-service:latest
+ghcr.io/iflytek/astron-rpa/robot-service:latest
+--platform=linux/arm64 ghcr.io/iflytek/astron-rpa/ai-service:latest
+--platform=linux/arm64 ghcr.io/iflytek/astron-rpa/openapi-service:latest
+--platform=linux/arm64 ghcr.io/iflytek/astron-rpa/resource-service:latest
+--platform=linux/arm64 ghcr.io/iflytek/astron-rpa/robot-service:latest
 
 #ghcr.io/iflytek/astron-agent/core-tenant:latest
 #ghcr.io/iflytek/astron-agent/core-database:latest
@@ -16,10 +19,7 @@ travisvn/openai-edge-tts:latest
 #ghcr.io/iflytek/astron-agent/core-workflow:latest
 #ghcr.io/iflytek/astron-agent/console-hub:latest
 
-#--platform=linux/arm64 ghcr.io/iflytek/astron-rpa/ai-service:latest
-#--platform=linux/arm64 ghcr.io/iflytek/astron-rpa/openapi-service:latest
-#--platform=linux/arm64 ghcr.io/iflytek/astron-rpa/resource-service:latest
-#--platform=linux/arm64 ghcr.io/iflytek/astron-rpa/robot-service:latest
+
 #--platform=linux/arm64 arigaio/atlas:latest
 
 #--platform=linux/arm64 ghcr.io/iflytek/astron-agent/core-tenant:latest
