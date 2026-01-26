@@ -1,15 +1,15 @@
 #RPA Service Group
-#ghcr.io/iflytek/astron-rpa/ai-service:latest
-#ghcr.io/iflytek/astron-rpa/openapi-service:latest
-#ghcr.io/iflytek/astron-rpa/resource-service:latest
-#ghcr.io/iflytek/astron-rpa/robot-service:latest
-bitnami/redis:latest
+ghcr.io/iflytek/astron-rpa/ai-service:v1.1.2-nightly
+ghcr.io/iflytek/astron-rpa/openapi-service:v1.1.2-nightly
+ghcr.io/iflytek/astron-rpa/resource-service:v1.1.2-nightly
+ghcr.io/iflytek/astron-rpa/robot-service:v1.1.2-nightly
+#bitnami/redis:latest
 
-#--platform=linux/arm64 ghcr.io/iflytek/astron-rpa/ai-service:latest
-#--platform=linux/arm64 ghcr.io/iflytek/astron-rpa/openapi-service:latest
-#--platform=linux/arm64 ghcr.io/iflytek/astron-rpa/resource-service:latest
-#--platform=linux/arm64 ghcr.io/iflytek/astron-rpa/robot-service:latest
---platform=linux/arm64 bitnami/redis:latest
+--platform=linux/arm64 ghcr.io/iflytek/astron-rpa/ai-service:v1.1.2-nightly
+--platform=linux/arm64 ghcr.io/iflytek/astron-rpa/openapi-service:v1.1.2-nightly
+--platform=linux/arm64 ghcr.io/iflytek/astron-rpa/resource-service:v1.1.2-nightly
+--platform=linux/arm64 ghcr.io/iflytek/astron-rpa/robot-service:v1.1.2-nightly
+#--platform=linux/arm64 bitnami/redis:latest
 
 #ghcr.io/iflytek/astron-agent/core-tenant:latest
 #ghcr.io/iflytek/astron-agent/core-database:latest
