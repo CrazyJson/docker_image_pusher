@@ -3,8 +3,9 @@
 #ghcr.io/iflytek/astron-rpa/openapi-service:v1.1.2-nightly
 #ghcr.io/iflytek/astron-rpa/resource-service:v1.1.2-nightly
 #ghcr.io/iflytek/astron-rpa/robot-service:v1.1.2-nightly
+ghcr.io/iflytek/astron-rpa/rpa-auth:latest
 #bitnami/redis:latest
-arigaio/atlas:latest
+#arigaio/atlas:latest
 
 
 #--platform=linux/arm64 ghcr.io/iflytek/astron-rpa/ai-service:v1.1.2-nightly
@@ -12,7 +13,8 @@ arigaio/atlas:latest
 #--platform=linux/arm64 ghcr.io/iflytek/astron-rpa/resource-service:v1.1.2-nightly
 #--platform=linux/arm64 ghcr.io/iflytek/astron-rpa/robot-service:v1.1.2-nightly
 #--platform=linux/arm64 bitnami/redis:latest
---platform=linux/arm64 arigaio/atlas:latest
+#--platform=linux/arm64 arigaio/atlas:latest
+--platform=linux/arm64 ghcr.io/iflytek/astron-rpa/rpa-auth:latest
 
 #ghcr.io/iflytek/astron-agent/core-tenant:latest
 #ghcr.io/iflytek/astron-agent/core-database:latest
