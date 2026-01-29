@@ -1,7 +1,5 @@
-zilliz/attu:v2.6
-zilliz/attu:v2.5.10
---platform=linux/arm64 zilliz/attu:v2.6
---platform=linux/arm64 zilliz/attu:v2.5.10
+mineru:latest
+
 
 #RPA Service Group
 #ghcr.io/iflytek/astron-rpa/ai-service:v1.1.2-nightly
