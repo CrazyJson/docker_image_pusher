@@ -1,5 +1,4 @@
-mineru:latest
-
+vllm/vllm-omni:v0.14.0rc1
 
 #RPA Service Group
 #ghcr.io/iflytek/astron-rpa/ai-service:v1.1.2-nightly
