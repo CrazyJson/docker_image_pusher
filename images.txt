@@ -1,5 +1,6 @@
+bradleylzh/landppt:20260307-091150
 #vllm/vllm-omni:v0.14.0rc1
-langgenius/dify-plugin-daemon:0.5.3-local
+#langgenius/dify-plugin-daemon:0.5.3-local
 #RPA Service Group
 #ghcr.io/iflytek/astron-rpa/ai-service:v1.1.5
 #ghcr.io/iflytek/astron-rpa/openapi-service:v1.1.5
