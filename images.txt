@@ -1,4 +1,5 @@
-bradleylzh/landppt:20260307-091150
+#bradleylzh/landppt:20260307-091150
+1panel/openclaw:2026.3.13
 #vllm/vllm-omni:v0.14.0rc1
 #langgenius/dify-plugin-daemon:0.5.3-local
 #RPA Service Group
