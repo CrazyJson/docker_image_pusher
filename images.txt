@@ -1,6 +1,6 @@
 #bradleylzh/landppt:20260307-091150
-python:3.11-slim-bookworm
---platform=linux/arm64 python:3.11-slim-bookwor
+openeuler/openeuler:22.03-lts-sp3
+--platform=linux/arm64 openeuler/openeuler:22.03-lts-sp3
 #vllm/vllm-omni:v0.14.0rc1
 #langgenius/dify-plugin-daemon:0.5.3-local
 #RPA Service Group
