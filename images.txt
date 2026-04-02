@@ -1,6 +1,6 @@
 #bradleylzh/landppt:20260307-091150
-agentscope/copaw:v1.0.0.post3
---platform=linux/arm64 agentscope/copaw:v1.0.0.post3
+ ghcr.io/bradsjm/chrome-mcp:latest
+--platform=linux/arm64  ghcr.io/bradsjm/chrome-mcp:latest
 #openeuler/openeuler:22.03-lts-sp3
 #openeuler/openeuler:22.03-lts-sp3
 #vllm/vllm-omni:v0.14.0rc1
