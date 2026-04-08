@@ -1,6 +1,6 @@
 #bradleylzh/landppt:20260307-091150
-python:3.11-slim
---platform=linux/arm64  python:3.11-slim
+node:20-alpine
+--platform=linux/arm64  node:20-alpine
 #openeuler/openeuler:22.03-lts-sp3
 #openeuler/openeuler:22.03-lts-sp3
 #vllm/vllm-omni:v0.14.0rc1
