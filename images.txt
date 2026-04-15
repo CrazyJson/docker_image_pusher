@@ -1,6 +1,11 @@
 #bradleylzh/landppt:20260307-091150
-calciumion/new-api:latest
---platform=linux/arm64  calciumion/new-api:latest
+ghcr.io/iflytek/skillhub-server:latest
+--platform=linux/arm64  ghcr.io/iflytek/skillhub-server:latest
+ghcr.io/iflytek/skillhub-web:latest
+--platform=linux/arm64  ghcr.io/iflytek/skillhub-web:latest
+ghcr.io/iflytek/skillhub-scanner:latest
+--platform=linux/arm64  ghcr.io/iflytek/skillhub-scanner:latest
+
 #openeuler/openeuler:22.03-lts-sp3
 #openeuler/openeuler:22.03-lts-sp3
 #vllm/vllm-omni:v0.14.0rc1
