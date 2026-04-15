@@ -1,6 +1,10 @@
 #bradleylzh/landppt:20260307-091150
-moby/buildkit:buildx-stable-1
---platform=linux/arm64  moby/buildkit:buildx-stable-1
+oven/bun:1
+--platform=linux/arm64 oven/bun:1
+golang:1.26.1-alpine
+--platform=linux/arm64 golang:1.26.1-alpine
+debian:bookworm-slim
+--platform=linux/arm64 debian:bookworm-slim
 ghcr.io/iflytek/skillhub-web:latest
 --platform=linux/arm64  ghcr.io/iflytek/skillhub-web:latest
 ghcr.io/iflytek/skillhub-scanner:latest
