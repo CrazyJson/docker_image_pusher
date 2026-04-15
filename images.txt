@@ -1,6 +1,6 @@
 #bradleylzh/landppt:20260307-091150
-ghcr.io/iflytek/skillhub-server:latest
---platform=linux/arm64  ghcr.io/iflytek/skillhub-server:latest
+moby/buildkit:buildx-stable-1
+--platform=linux/arm64  moby/buildkit:buildx-stable-1
 ghcr.io/iflytek/skillhub-web:latest
 --platform=linux/arm64  ghcr.io/iflytek/skillhub-web:latest
 ghcr.io/iflytek/skillhub-scanner:latest
