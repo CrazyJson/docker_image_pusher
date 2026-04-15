@@ -1,6 +1,6 @@
 #bradleylzh/landppt:20260307-091150
-langgenius/dify-plugin-daemon:0.5.6-local
---platform=linux/arm64  langgenius/dify-plugin-daemon:0.5.6-local
+calciumion/new-api:latest
+--platform=linux/arm64  calciumion/new-api:latest
 #openeuler/openeuler:22.03-lts-sp3
 #openeuler/openeuler:22.03-lts-sp3
 #vllm/vllm-omni:v0.14.0rc1
