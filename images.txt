@@ -1,14 +1,7 @@
 #bradleylzh/landppt:20260307-091150
-oven/bun:1
---platform=linux/arm64 oven/bun:1
-golang:1.26.1-alpine
---platform=linux/arm64 golang:1.26.1-alpine
-debian:bookworm-slim
---platform=linux/arm64 debian:bookworm-slim
-ghcr.io/iflytek/skillhub-web:latest
---platform=linux/arm64  ghcr.io/iflytek/skillhub-web:latest
-ghcr.io/iflytek/skillhub-scanner:latest
---platform=linux/arm64  ghcr.io/iflytek/skillhub-scanner:latest
+--platform=linux/arm64  quay.io/ascend/vllm-ascend:v0.18.0rc1-310p-openeuler
+--platform=linux/arm64 quay.io/ascend/vllm-ascend:nightly-releases-v0.18.0-310p
+
 
 #openeuler/openeuler:22.03-lts-sp3
 #openeuler/openeuler:22.03-lts-sp3
