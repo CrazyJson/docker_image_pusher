@@ -1,6 +1,6 @@
 #bradleylzh/landppt:20260307-091150
---platform=linux/arm64  quay.io/ascend/vllm-ascend:v0.18.0rc1-310p-openeuler
---platform=linux/arm64 quay.io/ascend/vllm-ascend:nightly-releases-v0.18.0-310p
+#--platform=linux/arm64  quay.io/ascend/vllm-ascend:v0.18.0rc1-310p-openeuler
+#--platform=linux/arm64 quay.io/ascend/vllm-ascend:nightly-releases-v0.18.0-310p
 
 
 #openeuler/openeuler:22.03-lts-sp3
@@ -8,11 +8,17 @@
 #vllm/vllm-omni:v0.14.0rc1
 #langgenius/dify-plugin-daemon:0.5.3-local
 #RPA Service Group
-#ghcr.io/iflytek/astron-rpa/ai-service:v1.1.5
-#ghcr.io/iflytek/astron-rpa/openapi-service:v1.1.5
-#ghcr.io/iflytek/astron-rpa/resource-service:v1.1.5
-#ghcr.io/iflytek/astron-rpa/robot-service:v1.1.5
-#ghcr.io/iflytek/astron-rpa/rpa-auth:v1.1.5
+mysql:8.4.6
+arigaio/atlas:latest
+bitnami/redis:latest
+minio/minio:RELEASE.2025-06-13T11-33-47Z-cpuv1
+openresty/openresty:1.27.1.1-alpine
+casbin/casdoor:v2.67.0
+ghcr.io/iflytek/astron-rpa/ai-service:v1.1.6
+ghcr.io/iflytek/astron-rpa/openapi-service:v1.1.6
+ghcr.io/iflytek/astron-rpa/resource-service:v1.1.6
+ghcr.io/iflytek/astron-rpa/robot-service:v1.1.6
+ghcr.io/iflytek/astron-rpa/rpa-auth:v1.1.6
 #bitnami/redis:latest
 #arigaio/atlas:latest
 
@@ -38,6 +44,19 @@
 
 
 #--platform=linux/arm64 arigaio/atlas:latest
+
+
+--platform=linux/arm64 mysql:8.4.6
+--platform=linux/arm64 arigaio/atlas:latest
+--platform=linux/arm64 bitnami/redis:latest
+--platform=linux/arm64 minio/minio:RELEASE.2025-06-13T11-33-47Z-cpuv1
+--platform=linux/arm64 openresty/openresty:1.27.1.1-alpine
+--platform=linux/arm64 casbin/casdoor:v2.67.0
+--platform=linux/arm64 ghcr.io/iflytek/astron-rpa/ai-service:v1.1.6
+--platform=linux/arm64 ghcr.io/iflytek/astron-rpa/openapi-service:v1.1.6
+--platform=linux/arm64 ghcr.io/iflytek/astron-rpa/resource-service:v1.1.6
+--platform=linux/arm64 ghcr.io/iflytek/astron-rpa/robot-service:v1.1.6
+--platform=linux/arm64 ghcr.io/iflytek/astron-rpa/rpa-auth:v1.1.6
 
 #--platform=linux/arm64 ghcr.io/iflytek/astron-agent/core-tenant:latest
 #--platform=linux/arm64 ghcr.io/iflytek/astron-agent/core-database:latest
