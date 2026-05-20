@@ -1,8 +1,9 @@
 #bradleylzh/landppt:20260307-091150
+onlyoffice/documentserver:latest
 #--platform=linux/arm64  quay.io/ascend/vllm-ascend:v0.18.0rc1-310p-openeuler
 #--platform=linux/arm64 quay.io/ascend/vllm-ascend:nightly-releases-v0.18.0-310p
-pypa/bandersnatch:s3-3.14
---platform=linux/arm64 pypa/bandersnatch:s3-3.14
+#pypa/bandersnatch:s3-3.14
+#--platform=linux/arm64 pypa/bandersnatch:s3-3.14
 #openeuler/openeuler:22.03-lts-sp3
 #openeuler/openeuler:22.03-lts-sp3
 #vllm/vllm-omni:v0.14.0rc1
