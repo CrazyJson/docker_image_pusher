@@ -1,5 +1,5 @@
 #bradleylzh/landppt:20260307-091150
-vllm/vllm-openai:v0.22.0-cu129-ubuntu2404
+vllm/vllm-openai:deepseekv4-cu130
 
 #--platform=linux/arm64  quay.io/ascend/vllm-ascend:v0.18.0rc1-310p-openeuler
 #--platform=linux/arm64 quay.io/ascend/vllm-ascend:nightly-releases-v0.18.0-310p
