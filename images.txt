@@ -1,7 +1,9 @@
 #bradleylzh/landppt:20260307-091150
-vllm/vllm-openai:deepseekv4-cu130
+#quay.io/ascend/vllm-ascend:v0.18.0rc1
 
-#--platform=linux/arm64  quay.io/ascend/vllm-ascend:v0.18.0rc1-310p-openeuler
+--platform=linux/arm64  quay.io/ascend/vllm-ascend:v0.18.0rc1
+--platform=linux/arm64  quay.io/ascend/vllm-ascend:v0.22.1rc1
+
 #--platform=linux/arm64 quay.io/ascend/vllm-ascend:nightly-releases-v0.18.0-310p
 #pypa/bandersnatch:s3-3.14
 #--platform=linux/arm64 pypa/bandersnatch:s3-3.14
