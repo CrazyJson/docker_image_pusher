@@ -1,8 +1,7 @@
 #bradleylzh/landppt:20260307-091150
 #quay.io/ascend/vllm-ascend:v0.18.0rc1
 
---platform=linux/arm64  quay.io/ascend/vllm-ascend:v0.18.0rc1
---platform=linux/arm64  quay.io/ascend/vllm-ascend:v0.22.1rc1
+--platform=linux/arm64  quay.io/ascend/vllm-ascend:v0.23.0rc1
 
 #--platform=linux/arm64 quay.io/ascend/vllm-ascend:nightly-releases-v0.18.0-310p
 #pypa/bandersnatch:s3-3.14
