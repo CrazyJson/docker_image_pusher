@@ -1,8 +1,8 @@
 #bradleylzh/landppt:20260307-091150
 #quay.io/ascend/vllm-ascend:v0.18.0rc1
 #ghcr.io/volcengine/openviking:v0.4.16
-#--platform=linux/arm64  ghcr.io/volcengine/openviking:v0.4.16
-electronuserland/builder:wine
+--platform=linux/arm64  quay.io/ascend/vllm-ascend:v0.26.0rc1-310p
+#electronuserland/builder:wine
 #quay.io/gpustack/gpustack:v2.2.3
 #--platform=linux/arm64 quay.io/gpustack/gpustack:v2.2.3
 
