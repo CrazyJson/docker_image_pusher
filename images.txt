@@ -1,7 +1,20 @@
 #bradleylzh/landppt:20260307-091150
 #quay.io/ascend/vllm-ascend:v0.18.0rc1
 #ghcr.io/volcengine/openviking:v0.4.16
---platform=linux/arm64  quay.io/ascend/vllm-ascend:v0.26.0rc1-310p
+
+mongo:6.0.2
+mysql:8.0.36
+minio/minio:RELEASE.2024-01-01T16-36-33Z 
+confluentinc/cp-kafka:7.5.3
+quay.io/coreos/etcd:v3.5.13
+redis:7.0.0
+--platform=linux/arm64 mongo:6.0.2
+--platform=linux/arm64 minio/minio:RELEASE.2024-01-01T16-36-33Z 
+--platform=linux/arm64 mysql:8.0.36
+--platform=linux/arm64 confluentinc/cp-kafka:7.5.3
+--platform=linux/arm64 redis:7.0.0
+--platform=linux/arm64 quay.io/coreos/etcd:v3.5.13
+
 #electronuserland/builder:wine
 #quay.io/gpustack/gpustack:v2.2.3
 #--platform=linux/arm64 quay.io/gpustack/gpustack:v2.2.3
