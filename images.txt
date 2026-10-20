@@ -7,11 +7,15 @@ mysql:8.0.36
 confluentinc/cp-kafka:7.5.3
 quay.io/coreos/etcd:v3.5.13
 redis:7.0.0
+zookeeper:3.8.4
+
 --platform=linux/arm64 mongo:6.0.2
 --platform=linux/arm64 mysql:8.0.36
 --platform=linux/arm64 confluentinc/cp-kafka:7.5.3
 --platform=linux/arm64 redis:7.0.0
 --platform=linux/arm64 quay.io/coreos/etcd:v3.5.13
+--platform=linux/arm64 zookeeper:3.8.4
+
 
 #electronuserland/builder:wine
 #quay.io/gpustack/gpustack:v2.2.3
